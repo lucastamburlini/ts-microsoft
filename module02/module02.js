@@ -65,3 +65,12 @@ function whichMonths(season) {
     return monthsInSeason;
 }
 console.log(whichMonths(Season.Winter));
+/* EXERCISE 4
+   TODO: Declare the array as the type to match the type of the items in the array. */
+var randomNumbers = [];
+var nextNumber;
+for (var i = 0; i < 10; i++) {
+    nextNumber = Math.floor(Math.random() * (100 - 1)) + 1;
+    randomNumbers.push(nextNumber);
+}
+console.log(randomNumbers);
