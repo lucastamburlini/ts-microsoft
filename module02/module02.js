@@ -25,3 +25,13 @@ else {
         age +
         ", and I'm not a citizen of the United Kingdom.");
 }
+/* EXERCISE 2
+   TODO: Run the code as is and then modify it to have strongly typed variables.
+   Then, address any errors you find so that the result returned to a is 12. */
+var x;
+var y;
+var a;
+x = 5;
+y = 7;
+a = x + y;
+console.log(a);
