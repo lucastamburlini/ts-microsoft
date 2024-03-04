@@ -10,6 +10,9 @@ interface Loan {
 
 /*  TODO: Declare the ConventionalLoan interface. */
 
+interface ConventionalLoan extends Loan {
+  months: number;
+}
 
 /*  TODO: Update the calculateInterestOnlyLoanPayment function. */
 
